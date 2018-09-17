@@ -1,6 +1,6 @@
 # my-issues
 
-# Ubuntu 18.04 dock show on lock screen
+## Ubuntu 18.04 dock show on lock screen
 Ok, resolved the issue by removing default ubuntu-dock@ubuntu.com:
 
 $ sudo mv /usr/share/gnome-shell/extensions/ubuntu-dock@ubuntu.com ~/
