@@ -8,6 +8,7 @@ $ sudo mv /usr/share/gnome-shell/extensions/ubuntu-dock@ubuntu.com ~/
 *credit* https://github.com/micheleg/dash-to-dock/issues/649
 
 ### Sequelize Join
+``` js
 var pk = 1
 let models = await models.FirstModel.findByPk(pk, {
         include:[{
@@ -20,3 +21,4 @@ let models = await models.FirstModel.findByPk(pk, {
             foreignKey: 'first_id',
         }]
     })
+```
